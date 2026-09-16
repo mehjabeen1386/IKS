@@ -1,0 +1,11 @@
+import Link from 'next/link';
+
+export default function AboutPage() {
+  return <main className="site-shell inner-page">
+    <nav className="topbar" aria-label="Main navigation"><Link className="brand" href="/"><span className="brand-mark">P</span><span><strong>prakruti</strong><small>an IKS knowledge system</small></span></Link><div className="nav-links"><Link href="/">Classifier</Link><Link href="/method">How it works</Link><Link href="/about">About IKS</Link></div><Link className="nav-cta" href="/">Begin assessment <span>↗</span></Link></nav>
+    <section className="inner-hero about-hero"><p className="eyebrow"><span className="eyebrow-line" /> ABOUT THE PROJECT</p><h1>Ancient ideas,<br /><em>clearer questions.</em></h1><p>Prakruti is a student-built Indian Knowledge Systems project exploring how Ayurvedic classification can be represented as a small, transparent expert system.</p></section>
+    <section className="about-grid"><article><span className="about-number">01</span><h2>Rooted in IKS</h2><p>Indian Knowledge Systems carry structured ways of observing nature, balance, and human experience. This project presents one educational lens into that knowledge without claiming to replace lived tradition or clinical expertise.</p></article><article><span className="about-number">02</span><h2>Made for learning</h2><p>The interface is intentionally inspectable. You can see the questions, follow the scoring logic, and understand why a result appears. The goal is curiosity, not diagnosis.</p></article><article><span className="about-number">03</span><h2>Respectfully limited</h2><p>This is a simplified classroom model. A complete Ayurvedic assessment considers many more factors and should be discussed with a qualified practitioner when health decisions are involved.</p></article></section>
+    <section className="about-callout"><p className="eyebrow"><span className="eyebrow-line" /> START WITH CURIOSITY</p><h2>Meet the classifier<br /><em>on your own terms.</em></h2><Link className="primary-button" href="/">Open the assessment <span>→</span></Link></section>
+    <footer><span className="brand-mark">P</span><p><strong>prakruti</strong> · Indian Knowledge Systems studio</p><span>Built for learning, reflection, and better questions.</span></footer>
+  </main>;
+}
