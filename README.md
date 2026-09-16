@@ -90,5 +90,4 @@ iks-temp/
 ## Copyright and License
 
 Copyright © 2026 Mehjabeen. All rights reserved.
-
-This project is provided for academic and educational demonstration purposes. No permission is granted to copy, modify, distribute, sublicense, or use this project commercially without prior written permission from the copyright holder.
+This repository and its content are shared exclusively for portfolio, academic, and demonstration purposes. Unauthorized copying, distribution, or modification is prohibited.
