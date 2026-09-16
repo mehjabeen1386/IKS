@@ -1,0 +1,11 @@
+import Link from 'next/link';
+
+export default function MethodPage() {
+  return <main className="site-shell inner-page">
+    <nav className="topbar" aria-label="Main navigation"><Link className="brand" href="/"><span className="brand-mark">P</span><span><strong>prakruti</strong><small>an IKS knowledge system</small></span></Link><div className="nav-links"><Link href="/">Classifier</Link><Link href="/method">How it works</Link><Link href="/about">About IKS</Link></div><Link className="nav-cta" href="/">Begin assessment <span>↗</span></Link></nav>
+    <section className="inner-hero"><p className="eyebrow"><span className="eyebrow-line" /> INSIDE THE SYSTEM</p><h1>Simple rules.<br /><em>Meaningful patterns.</em></h1><p>Prakruti is designed as an interpretable rule-based expert system. Every input can be traced to a classification, so the result is explainable rather than mysterious.</p></section>
+    <section className="method-board"><div className="method-step"><span>01</span><h2>Gather signals</h2><p>The classifier asks about everyday patterns such as body frame, energy rhythm, and mental response under pressure.</p></div><div className="method-connector">→</div><div className="method-step"><span>02</span><h2>Apply rules</h2><p>Each selected answer maps to one dosha: Vata, Pitta, or Kapha. Every match adds one point to its score.</p></div><div className="method-connector">→</div><div className="method-step"><span>03</span><h2>Return a pattern</h2><p>The strongest score becomes the primary constitution, accompanied by context and gentle areas to explore.</p></div></section>
+    <section className="logic-section"><div><p className="eyebrow"><span className="eyebrow-line" /> TRANSPARENT LOGIC</p><h2>Nothing hidden<br /><em>behind the result.</em></h2></div><div className="logic-code"><p><strong>IF</strong> an answer maps to Vata, Pitta, or Kapha</p><p><strong>THEN</strong> add one point to that dosha</p><p><strong>RETURN</strong> the highest score as the primary constitution</p></div></section>
+    <footer><span className="brand-mark">P</span><p><strong>prakruti</strong> · Indian Knowledge Systems studio</p><span>Built for learning, reflection, and better questions.</span></footer>
+  </main>;
+}
